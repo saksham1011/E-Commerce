@@ -1,6 +1,8 @@
 # E-Commerce
 This code shows the shopping cart feature for the e-commerce website.
 
+This project uses HTML5, CSS3, Javascript, Bootstrap 5
+
 This app has the functionality of displaying items from local JSON file.
 When a user clicks on add to cart button that item gets added to the cart and the cart opens up
 displaying the item user has added. When the item is added, add to cart button for that item gets
