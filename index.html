@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./Styles/style.css">
+    <!-- App.js -->
+    <script src="./JS/app.js" async></script>
+    <title>E-commerce</title>
+</head>
+
+<body class="body-color" id="body">
+    <!-- Header section - Start  -->
+    <div class="main-header">
+        <img src="/Images/Logo.png" class="img-fluid mx-auto d-block main-logo" alt="Site Logo" />
+        <h1 class="main-heading">Featured Collection</h1>
+        <p class="mx-auto d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar ac
+            tortor imperdiet commodo.</p>
+        <div class="cart-btn">
+            <img src="/Images/shopping-bag.png" alt="Shopping Bag" class="img-fluid mx-auto d-block" />
+            <span class="badge cart-items">0</span>
+        </div>
+    </div>
+    <!-- Header section - End  -->
+
+    <!-- Product section - Start  -->
+    <div class="container-fluid" id="second-section">
+        <div class="row products-list"></div>
+    </div>
+    <!-- Product section - End  -->
+
+    <!-- Third section - Start  -->
+    <div class="container-fluid" id="third-section">
+        <div class="row">
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 first-column">
+                <div class="mx-auto">
+                    <h1>Made For You</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar ac tortor imperdiet
+                        commodo.
+                    </p>
+                </div>
+                <div class="d-grid learn-btn-container">
+                    <button type="button" class="learn-btn">Learn More</button>
+                </div>
+                <img src="./Images/First-Image.png" class="img-fluid mx-auto d-block first-column-image"
+                    alt="First Image" />
+            </div>
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                <img src="./Images/Component.png" class="img-fluid mx-auto d-block second-column-image"
+                    alt="Second Image" />
+            </div>
+        </div>
+    </div>
+    <!-- Third section - End  -->
+
+    <!-- Cart section - Start -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <div class="cart-header d-flex justify-content-between">
+                <h2 class="cart-heading">Your Bag <span class="items">(0 Items)</span></h2>
+                <span>
+                    <i class="bi bi-x-lg close-cart"></i>
+                </span>
+            </div>
+            <div class="cart-content">
+            </div>
+
+            <div class="cart-footer">
+                <div class="d-flex justify-content-between">
+                    <p class="sub-total-text align-self-baseline">Subtotal</p>
+                    <p class="cart-total align-self-baseline">$0</p>
+                </div>
+                <div>
+                    <div class="mx-auto d-grid checkout-btn-container">
+                        <button type="button"><img src="./Images/Lock.png" class="me-2" alt="Lock" />Checkout</button>
+                    </div>
+                    <div>
+                        <p class="mx-auto d-block footer-text">Have a promo code? Enter your code at checkout.
+                            Shipping & taxes are calculated during checkout.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Cart section - End -->
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
